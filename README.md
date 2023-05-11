@@ -1,4 +1,4 @@
-<p align="center">
+<p align="left">
     <img alt="Selector de Nombres Aleatorios para Sorteo" src="./logo.png" width="100" />
 </p>
 
