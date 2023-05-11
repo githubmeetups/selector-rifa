@@ -1,18 +1,15 @@
 <p align="center">
-    <img alt="Random Name Picker for Lucky Draw" src="./logo.svg" width="100" />
+    <img alt="Selector de Nombres Aleatorios para Sorteo" src="./logo.svg" width="100" />
 </p>
 
-# Random Name Picker for GitHub prize draws!
+Selector aleatorio de nombres para sorteos en GitHub
+:pray: En primer lugar, queremos dar un enorme reconocimiento a @icelam por proporcionarnos un excelente y sencillo selector de nombres que pudimos bifurcar y utilizar para el stand de GitHub.
 
-:pray: First, huge shout-out to [@icelam](https://github.com/icelam) for a great and simple name picker we could fork and use for the GitHub booth!
+:rocket: Este sitio está desplegado en GitHub Pages utilizando GitHub Actions. El flujo de trabajo de Actions recopila a los participantes de los comentarios en un Issue de GitHub.
 
-:rocket: This site is deployed to GitHub Pages using GitHub Actions. The Actions workflow pulls entrants from commenters of a GitHub Issue.
+:ticket: Para participar en el sorteo agrega un comentario en este [Issue](https://github.com/githubpresente/random-name-picker/issues/1)
 
-:ticket: To enter the draw (if there is one), add a comment to [This Issue](/GH-Event-Demos/random-name-picker/issues/1)
-
----
-
-Below is the original README:
+A continuación se muestra el README original:
 
 ---
 
