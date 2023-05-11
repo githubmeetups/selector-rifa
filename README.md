@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="Selector de Nombres Aleatorios para Sorteo" src="./logo.svg" width="100" />
+    <img alt="Selector de Nombres Aleatorios para Sorteo" src="./logo.png" width="100" />
 </p>
 
 Selector aleatorio de nombres para sorteos en GitHub
