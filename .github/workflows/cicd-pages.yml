@@ -45,7 +45,7 @@ jobs:
             const fs = require('fs')
             
             await github.paginate(github.rest.issues.listComments,
-              { owner: 'githubpresente', repo: 'selector-rifa', issue_number: 1 },
+              { owner: 'githubpresente', repo: 'selector-rifa', issue_number: 2 },
               (response) => response.data.map((issuecomment) => issuecomment.user.login)
             )
             .then((commenters) => {
