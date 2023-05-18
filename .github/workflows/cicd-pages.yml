@@ -22,6 +22,9 @@ concurrency:
   group: "pages"
   cancel-in-progress: true
 
+env:
+  ISSUE_ID: 1
+
 jobs:
   # Build job
   build:
@@ -29,6 +32,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - name: Output Issue ID
+        run: echo ${{ env.ISSUE_ID }}
       - name: Setup Pages
         uses: actions/configure-pages@v1
       - name: Set up node with nvm
@@ -45,7 +50,7 @@ jobs:
             const fs = require('fs')
             
             await github.paginate(github.rest.issues.listComments,
-              { owner: 'githubpresente', repo: 'selector-rifa', issue_number: 2 },
+              { owner: 'githubpresente', repo: 'selector-rifa', issue_number: ${{ env.ISSUE_ID }} },
               (response) => response.data.map((issuecomment) => issuecomment.user.login)
             )
             .then((commenters) => {
